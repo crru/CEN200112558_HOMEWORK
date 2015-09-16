@@ -1,0 +1,23 @@
+Algorithm 
+1. รับข้อมูลจากคีย์บอร์ด
+2. ถ้าหากตัวเลขที่ป้อนเข้ามาจากคีย์บอร์ดมีค่า ตรงกับที่ได้กำหนดไว้เช่น เลขศูนย์ ให้จบโปรแกรม
+3. พิมพ์ผลรวมของค่าที่รับจากคีย์บอร์ดออกสู่จอภาพ
+
+ตัวอย่างการใช้งาน
+$ java SentinelValue 
+Enter an int value (the program exits if the input is 0): 2
+Enter an int value (the program exits if the input is 0): 3
+Enter an int value (the program exits if the input is 0): 4
+Enter an int value (the program exits if the input is 0): 5
+Enter an int value (the program exits if the input is 0): 0
+The sum is 14
+
+$ java SentinelValue 
+Enter an int value (the program exits if the input is 0): 1
+Enter an int value (the program exits if the input is 0): 2
+Enter an int value (the program exits if the input is 0): 3
+Enter an int value (the program exits if the input is 0): 4
+Enter an int value (the program exits if the input is 0): 0
+The sum is 10
+
+Tip : ใช้ while loop
